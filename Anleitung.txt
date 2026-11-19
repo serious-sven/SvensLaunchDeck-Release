@@ -1,0 +1,287 @@
+SVENS LAUNCH DECK  –  Anleitung
+================================
+
+Ein kleines Deck mit Bild-Kacheln, das auf dem Desktop schwebt: ein Klick, und Programm, Ordner, Datei
+oder Webseite ist offen. Dazu Widgets (Uhr, Wetter, PC-Status …), 16 Designs und viele Kleinigkeiten.
+
+Inhalt
+  1. Starten und Installieren
+  2. Das Deck im Überblick
+  3. Kacheln hinzufügen, ändern, sortieren
+  4. Deck bewegen, andocken, verkleinern
+  5. Suchen, Filter, Kategorien
+  6. Tastenkürzel und Zahlen
+  7. Widgets (mit Herunterfahren, Abmelden, Energiesparen)
+  8. Einstellungen im Detail
+  9. Designs, Transparenz, LED-Rand
+ 10. Mehrere Decks, Sichern, anderer PC
+ 11. Infobereich (neben der Uhr)
+ 12. Updates
+ 13. Eigene Designs
+ 14. Wo liegen meine Daten? Entfernen
+ 15. Häufige Fragen
+ 16. English quick guide
+
+
+1. STARTEN UND INSTALLIEREN
+---------------------------
+Es gibt keine Installation und keine Rechte als Administrator.
+
+ 1. ZIP entpacken, z. B. nach "Dokumente\SvensLaunchDeck".
+ 2. SvensLaunchDeck.exe doppelklicken.
+ 3. Beim ersten Start meldet Windows evtl. "Der Computer wurde durch Windows geschützt" (SmartScreen).
+    Das liegt nur daran, dass die Datei nicht signiert ist, nicht an einem Problem:
+    -> "Weitere Informationen" klicken -> "Trotzdem ausführen".
+ 4. Das Deck erscheint rechts am Bildschirmrand. Das war's.
+
+Voraussetzung: Windows 10 oder 11 (64 Bit). .NET muss nicht installiert werden, es steckt in der Datei.
+Die Datei ist deshalb recht groß (rund 70 MB). Das ist normal.
+
+Tipp: Zahnrad -> Allgemein -> "Mit Windows starten", dann ist das Deck nach der Anmeldung gleich da.
+
+
+2. DAS DECK IM ÜBERBLICK
+------------------------
+Oben (Kopfzeile)
+  - Schloss (links)     Position und Größe festhalten. Geschlossen = nichts verrutscht aus Versehen.
+  - Titel               "Launch Deck". Ziehen verschiebt das Deck.
+  - Pinnnadel           Immer im Vordergrund an/aus.
+  - Minus / Kreuz       Minimieren / Schließen. Das Kreuz blendet das Deck nur aus (siehe 11).
+Mitte
+  - Die Kacheln. Bei Platzmangel erscheint ein dünner Scrollbalken.
+Unten (Fußleiste)
+  - "Add"               Neue Kachel hinzufügen.
+  - "Alle ▾"            Filter: Alle, Apps, Web, Ordner und eigene Kategorien.
+  - Lupe                Suche.
+  - Ebenen-Symbol       Zwischen Decks wechseln, neues Deck anlegen.
+  - Zahnrad             Einstellungen. Ein kleiner Punkt am Zahnrad = es gibt ein Update.
+Am linken Rand
+  - Griff (Pfeil)       Widgets ein-/ausklappen.
+Am Rand (rechts oder links)
+  - Griff zum Ausklappen, wenn das Deck am Bildschirmrand versteckt ist (siehe 4).
+
+Die Knöpfe leuchten, solange ihr Bereich offen ist (Suche, Einstellungen, Deck-Menü).
+Menüs ("Alle ▾", Deck-Wechsel): Ein zweiter Klick auf den Knopf schließt sie wieder. Fährt die Maus
+weg, blenden sie sich von selbst aus.
+
+
+3. KACHELN HINZUFÜGEN, ÄNDERN, SORTIEREN
+----------------------------------------
+Hinzufügen
+  - "Add" unten links: Typ wählen (Programm, Ordner, Webseite), Name, Pfad oder Adresse, Bild, Kategorie.
+  - Oder einfach etwas auf das Deck ziehen: eine Programmdatei, Verknüpfung, einen Ordner, eine Datei
+    oder einen Link aus dem Browser. Mehrere Dinge auf einmal gehen auch.
+  - Das Symbol wird automatisch geholt (bei Webseiten das Icon der Seite). Eigenes Bild: im Dialog
+    "Bild wählen" oder ein PNG/JPG auf das Bildfeld ziehen. "Standard" setzt das Symbol zurück.
+Öffnen
+  - Kachel anklicken. Webseiten öffnen im Standardbrowser, Ordner im Explorer.
+Bearbeiten oder entfernen
+  - Rechtsklick auf die Kachel -> "Bearbeiten …" oder "Entfernen".
+  - Entfernen löscht nur die Kachel im Deck. Das Programm, der Ordner oder die Webseite bleiben unberührt.
+Sortieren
+  - Kachel mit der Maus ziehen. Ein Balken zeigt, wo sie landet: linke Hälfte einer Kachel = davor,
+    rechte Hälfte = dahinter. Auch zwischen den Kacheln loslassen geht.
+Nummern
+  - Jede Kachel trägt eine Nummer. Sie bleibt immer gleich, auch wenn man filtert.
+  - Eigenes Tastenkürzel pro Kachel: Rechtsklick -> Bearbeiten -> Tastenkürzel.
+
+
+4. DECK BEWEGEN, ANDOCKEN, VERKLEINERN
+--------------------------------------
+Bewegen
+  - Kopfzeile ziehen. Das Deck rastet an den Bildschirmrändern und in der Mitte ein.
+    Alt gedrückt halten = frei ziehen ohne Einrasten.
+  - Das Deck bleibt dort, wo man es einrastend losgelassen hat. Bei mehreren Bildschirmen wandert es
+    mit auf den Bildschirm, auf dem die Maus ist.
+Größe
+  - Ränder und Ecken ziehen. Die kleinste Größe ist 284 × 335 – kleiner wird das Logo oben zu eng.
+  - Das Schloss hält Größe und Position fest.
+Am Bildschirmrand einklappen
+  - Zahnrad -> Allgemein -> "Am Bildschirmrand ausblenden". Ein angedocktes Deck gleitet aus dem Bild,
+    sobald die Maus es verlässt, und kommt zurück, wenn die Maus an den Rand fährt.
+Immer im Vordergrund
+  - Pinnnadel oben (oder Zahnrad -> Allgemein -> "Immer im Vordergrund").
+
+
+5. SUCHEN, FILTER, KATEGORIEN
+-----------------------------
+Suche
+  - Lupe unten, oder Strg + F, oder einfach Buchstaben tippen (wenn das Deck aktiv ist).
+  - Enter öffnet den ersten Treffer, Esc schließt die Suche.
+Filter
+  - "Alle ▾" unten: Alle, Apps, Web, Ordner und eigene Kategorien. Ein Haken zeigt die Auswahl.
+Kategorien
+  - Zahnrad -> Kategorien: bis zu 6 eigene Kategorien anlegen, umbenennen, verschieben, löschen.
+  - Eine Kachel gehört zu einer Kategorie über Rechtsklick -> Bearbeiten -> Kategorie.
+  - Löscht man eine Kategorie, bleiben die Kacheln erhalten und stehen unter "Alle".
+
+
+6. TASTENKÜRZEL UND ZAHLEN
+--------------------------
+  - Strg + Alt + D   Deck von überall ein-/ausblenden (in den Einstellungen änderbar, Entfernen mit der Rücktaste)
+  - Esc               Deck wieder ausblenden (wenn es per Kürzel geholt wurde)
+  - Strg + F          Suche
+  - Zahlen 1–9        Kachel mit dieser Nummer öffnen (wenn das Deck aktiv ist)
+  - Ab 10             zwei Ziffern schnell hintereinander, z. B. 1 und 2 = Kachel 12
+  - Eigenes Kürzel pro Kachel: Rechtsklick -> Bearbeiten
+  - Zahnrad -> Tastenkürzel: "Nummern anzeigen" blendet die kleinen Zahlen auf den Kacheln ein/aus.
+    Die Zifferntasten funktionieren immer.
+
+
+7. WIDGETS
+----------
+Der Griff am linken Rand klappt die Leiste aus (und wieder ein). Sie schiebt das Deck nicht über den Rand
+hinaus, das Fenster wächst mit. Was angezeigt wird, stellt man unter Zahnrad -> Widgets ein.
+
+  - Energie (ganz oben)
+      Herunterfahren   fährt den PC sauber herunter. Programme werden gebeten, sich zu schließen.
+      Abmelden         zurück zum Windows-Anmeldebildschirm. Danach ist das Passwort nötig.
+      Energiesparen    schickt den PC in den Standby.
+    ACHTUNG: Alle drei Knöpfe wirken SOFORT und OHNE Rückfrage. Nicht gespeicherte Arbeit vorher sichern.
+  - Uhr und Datum
+  - Wetter           Orte unter Zahnrad -> Widgets eintragen (Ort tippen, Enter). Bis zu 4 Orte.
+                     Das Wetter kommt von Open-Meteo (frei, ohne Konto). Gesendet wird nur der Ortsname.
+  - PC-Status        Prozessor und Arbeitsspeicher
+  - Netzwerk         Verbindung, IP-Adresse, Geschwindigkeit
+  - Festplatten      Belegung der Laufwerke
+  - Schnellstart     Windows Terminal (oder PowerShell) und Task-Manager mit einem Klick
+
+
+8. EINSTELLUNGEN IM DETAIL
+--------------------------
+Zahnrad unten rechts. Links die Bereiche:
+
+Allgemein
+  - Decks            getrennte Decks anlegen, wechseln, löschen (siehe 10)
+  - Sprache          Deutsch, English, ไทย
+  - Fenster          Immer im Vordergrund / Im Infobereich weiterlaufen / Mit Windows starten /
+                     Am Bildschirmrand ausblenden
+  - Sichern und übertragen   Exportieren / Importieren (siehe 10)
+Aussehen
+  - Design           16 Designs zum Anklicken (siehe 9)
+  - Darstellung      Oberfläche (Flach / Plastisch), Einträge (Flach / Dezent / Plastisch),
+                     Transparenz, LED-Rand
+  - Farbe der Einträge   eigene Kachelfarbe (wird beim Wechsel des Designs zurückgesetzt)
+Kategorien           siehe 5
+Tastenkürzel         siehe 6
+Widgets              welche Widgets, Orte fürs Wetter
+Version & Updates    Version, automatisch suchen, jetzt aktualisieren
+
+
+9. DESIGNS, TRANSPARENZ, LED-RAND
+---------------------------------
+Designs
+  - Klassisch: Dark Glass, Obsidian (Taucheruhr-Look: Zifferblatt-Braun, Titan, Sand-Beige), Slate, Velvet,
+    Charcoal, Monogram (brauner Canvas, vergoldete SLD-Motive, vergoldete Knöpfe), Titanium.
+  - Verläufe: Aurora, Liquid Glass, Midnight Wave, Aqua Glass, Steel Petals, Black Silk, Color Satin,
+    Night Dunes, Nebula. Alle sind im Programm gezeichnet und bleiben in jeder Größe scharf.
+  - Knöpfe, Rahmen und Widgets passen sich dem Design an. Wer eine Kachelfarbe wählt, ändert nur die Kacheln.
+Transparenz
+  - Der Regler macht das GANZE Deck durchscheinend, sodass der Desktop dahinter zu sehen ist.
+    100 % = undurchsichtig (Standard), nach links wird es durchsichtiger.
+LED-Rand
+  - Farbiges Leuchten um das Deck: Aus, Blau, Gelb, Rot, Grün, Lila oder RGB (Regenbogen),
+    dazu Ruhig, Pulsieren oder Lauflicht. Das Licht erscheint nur außen am Rand.
+Oberfläche und Einträge
+  - Flach = klare Flächen wie im Browser, Plastisch = Lichtkanten und Schatten, Dezent = dazwischen.
+
+
+10. MEHRERE DECKS, SICHERN, ANDERER PC
+--------------------------------------
+Mehrere Decks (z. B. Arbeit / Privat)
+  - Ebenen-Symbol unten: Deck wechseln oder "Neues Deck …". Oder Zahnrad -> Allgemein -> Decks.
+  - Jedes Deck hat eigene Kacheln, Kategorien und Einstellungen. Gelöschte Decks landen im Papierkorb.
+Sichern / anderer PC
+  - Zahnrad -> Allgemein -> Exportieren: eine Datei (.sldeck) mit allen Kacheln, Bildern und Einstellungen.
+  - Auf dem anderen PC: Importieren. Das aktuelle Deck wird vorher automatisch gesichert, danach startet
+    das Deck neu. Programme, die es auf dem anderen PC nicht gibt, öffnen dort natürlich nicht.
+
+
+11. INFOBEREICH (UNTEN RECHTS NEBEN DER UHR)
+--------------------------------------------
+  - Mit dem Kreuz verschwindet das Deck nur und läuft dort weiter (abschaltbar unter Allgemein ->
+    "Im Infobereich weiterlaufen").
+  - Klick auf das Symbol holt es zurück. Rechtsklick -> "Beenden" schließt es ganz.
+  - Strg + Alt + D holt es ebenfalls zurück.
+
+
+12. UPDATES
+-----------
+  - Die Version steht unten links in den Einstellungen und unter "Version & Updates".
+  - Das Deck sieht beim Start (kurz verzögert) und danach alle 3 Stunden nach, ob es eine neue Version
+    gibt. Dabei wird nur gefragt, welche Version die neueste ist. Es werden keine Daten über dich gesendet.
+    Abschaltbar unter "Version & Updates".
+  - Neue Version da: kleiner Punkt am Zahnrad. Dann Zahnrad -> "Jetzt aktualisieren".
+    Das Deck lädt die Datei, prüft die Prüfsumme (SHA-256), tauscht die Exe aus und startet neu.
+    Kacheln, Bilder und Einstellungen bleiben.
+  - Es wird nur von GitHub geladen. Passt die Prüfsumme nicht, wird nichts installiert.
+
+
+13. EIGENE DESIGNS
+------------------
+  - Jedes Bild (JPG/PNG) im Ordner "designs" neben der Exe wird ein eigenes Design. Der Dateiname ist der
+    Name. Der Ordner kann auch unter %AppData%\SvensLauncherDeck\designs liegen.
+  - Auswahl unter Zahnrad -> Aussehen. Farben für Kacheln und Knöpfe werden aus dem Bild abgeleitet.
+  - Tipp: Dunkle, ruhige Bilder im Hochformat (etwa 900 × 1500) wirken am besten.
+
+
+14. WO LIEGEN MEINE DATEN? ENTFERNEN
+------------------------------------
+  - Einstellungen, Kacheln und Bilder:  %AppData%\SvensLauncherDeck
+    (Tastenkombination Windows + R, dann diesen Pfad eintippen.) Weitere Decks liegen darin im Ordner "decks".
+  - Fehlerprotokoll:  %AppData%\SvensLauncherDeck\logs\fehler.log  (nur lokal, wird nirgends hingeschickt)
+  - Für Tests ein eigener Datenordner:  SvensLaunchDeck.exe --data C:\irgendwo\testdeck
+  - Entfernen: Zahnrad -> "Mit Windows starten" ausschalten, Deck über das Infobereich-Symbol beenden,
+    dann den Programmordner und den Datenordner oben löschen. Mehr ist nicht nötig.
+  - Das Programm legt keine Dienste, geplanten Aufgaben oder Registry-Einträge an – außer dem Autostart-Eintrag,
+    wenn man "Mit Windows starten" einschaltet.
+
+
+15. HÄUFIGE FRAGEN
+------------------
+Das Deck ist weg.
+  -> Strg + Alt + D drücken oder Symbol im Infobereich anklicken. Wurde es am Rand eingeklappt, die Maus
+     an den Bildschirmrand fahren.
+Windows warnt beim Start.
+  -> "Weitere Informationen" -> "Trotzdem ausführen" (die Datei ist nicht signiert).
+Eine Kachel öffnet nichts.
+  -> Rechtsklick -> Bearbeiten und den Pfad prüfen. Wurde das Programm verschoben oder gelöscht?
+Das Deck steckt in einer Ecke fest oder ist zu klein.
+  -> Schloss oben links öffnen, dann Ränder ziehen. Oder Einstellungen -> "Mit Windows starten" aus/an und neu starten.
+Wetter zeigt nichts.
+  -> Zahnrad -> Widgets -> Ort eintragen (Ort tippen, Enter).
+Ich will alles auf einen anderen PC mitnehmen.
+  -> Zahnrad -> Allgemein -> Exportieren, dort Importieren.
+Die Menüs unten gehen sofort wieder zu.
+  -> Sie schließen sich, sobald die Maus sie verlässt. Maus auf dem Knopf oder im Menü lassen.
+
+
+16. ENGLISH QUICK GUIDE
+-----------------------
+START
+  Unzip, e.g. to "Documents\SvensLaunchDeck", then double-click SvensLaunchDeck.exe. No install, no admin rights.
+  If Windows says "Windows protected your PC": click "More info" -> "Run anyway" (the file is not signed).
+
+USE
+  Click a tile to open it. "Add" or drag & drop adds tiles (programs, folders, files, links). Right-click a
+  tile to edit or remove it (the program itself stays untouched). Drag tiles to reorder them.
+  Drag the header to move the deck (snaps to edges and centre, Alt = free). The lock keeps position and
+  size. The pin keeps the deck on top. The minimum size is 284 x 335.
+  "All" at the bottom filters (All, Apps, Web, Folders, your categories). The magnifier or Ctrl+F searches.
+  The layers icon switches between decks. The gear opens settings (language: Deutsch / English / ไทย,
+  16 designs, transparency, LED border, tile style, categories, shortcuts, widgets, updates).
+  Ctrl + Alt + D shows/hides the deck from anywhere. Number keys open tiles (from 10 on, type two digits
+  quickly). X keeps the deck running in the tray; right-click the tray icon -> "Quit" closes it.
+
+WIDGETS
+  The handle on the left edge opens the widget bar: power buttons (shut down, sign out, sleep - they act
+  IMMEDIATELY and WITHOUT asking), clock, weather (Open-Meteo), PC status, network, drives, quick start (Terminal, Task Manager).
+
+UPDATES
+  The deck checks for updates at start and every 3 hours (only asks for the latest version number, sends no
+  data about you). A dot on the gear means a new version: gear -> "Update now". Tiles and settings stay.
+  Downloads come from GitHub only and are checked with a SHA-256 checksum.
+
+DATA
+  Settings live in %AppData%\SvensLauncherDeck. Export/import a backup under gear -> General.
+  To remove: turn off "Start with Windows", quit the deck, delete the program folder and the data folder.
