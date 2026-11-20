@@ -1,8 +1,8 @@
 # Svens Launch Deck
 
 Ein kleines, schwebendes Deck mit Bild-Kacheln für Windows: ein Klick, und Programm, Ordner, Datei oder Webseite ist offen.
-Dazu Widgets (Uhr, Wetter, PC-Status, Netzwerk, Festplatten, Herunterfahren / Abmelden / Energiesparen), 16 Designs,
-Transparenz, LED-Rand, mehrere Decks und automatische Updates.
+Dazu Widgets (Uhr, Wetter, PC-Status, Netzwerk, Festplatten, Herunterfahren / Abmelden / Energiesparen), 18 Designs,
+Transparenz, LED-Rand, festem Rand, mehrere Decks und automatische Updates.
 
 ![Svens Launch Deck](screenshot.png)
 
@@ -31,9 +31,9 @@ beantwortet häufige Fragen. Am Ende steht eine englische Kurzfassung.
 | Was | Wie |
 |---|---|
 | Kachel hinzufügen | „Add“ unten links oder Programm / Ordner / Link aufs Deck ziehen |
-| Kachel öffnen | Anklicken oder Zifferntaste (1–9, ab 10 zwei Ziffern) |
+| Kachel öffnen | Anklicken (oder Zifferntaste 1–9, wenn in den Einstellungen eingeschaltet) |
 | Kachel ändern / entfernen | Rechtsklick |
-| Deck verschieben | Kopfzeile ziehen (rastet an Rändern ein, Alt = frei) |
+| Deck verschieben | an einer freien Stelle ziehen (rastet an Rändern ein, Alt = frei) |
 | Deck ein-/ausblenden | **Strg + Alt + D** |
 | Suchen | Lupe, Strg + F oder einfach tippen |
 | Einstellungen | Zahnrad unten rechts |

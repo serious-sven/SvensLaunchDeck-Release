@@ -2,7 +2,7 @@ SVENS LAUNCH DECK  –  Anleitung
 ================================
 
 Ein kleines Deck mit Bild-Kacheln, das auf dem Desktop schwebt: ein Klick, und Programm, Ordner, Datei
-oder Webseite ist offen. Dazu Widgets (Uhr, Wetter, PC-Status …), 16 Designs und viele Kleinigkeiten.
+oder Webseite ist offen. Dazu Widgets (Uhr, Wetter, PC-Status …), 18 Designs und viele Kleinigkeiten.
 
 Inhalt
   1. Starten und Installieren
@@ -13,7 +13,7 @@ Inhalt
   6. Tastenkürzel und Zahlen
   7. Widgets (mit Herunterfahren, Abmelden, Energiesparen)
   8. Einstellungen im Detail
-  9. Designs, Transparenz, LED-Rand
+  9. Designs, Transparenz, LED-Rand, Rand
  10. Mehrere Decks, Sichern, anderer PC
  11. Infobereich (neben der Uhr)
  12. Updates
@@ -121,11 +121,12 @@ Kategorien
   - Strg + Alt + D   Deck von überall ein-/ausblenden (in den Einstellungen änderbar, Entfernen mit der Rücktaste)
   - Esc               Deck wieder ausblenden (wenn es per Kürzel geholt wurde)
   - Strg + F          Suche
-  - Zahlen 1–9        Kachel mit dieser Nummer öffnen (wenn das Deck aktiv ist)
+  - Zahlen 1–9        Kachel mit dieser Nummer öffnen (nur wenn eingeschaltet, siehe unten)
   - Ab 10             zwei Ziffern schnell hintereinander, z. B. 1 und 2 = Kachel 12
   - Eigenes Kürzel pro Kachel: Rechtsklick -> Bearbeiten
   - Zahnrad -> Tastenkürzel: "Nummern anzeigen" blendet die kleinen Zahlen auf den Kacheln ein/aus.
-    Die Zifferntasten funktionieren immer.
+    "Mit Zifferntasten öffnen" schaltet die Zifferntasten ein. Es ist am Anfang AUS und gehört zu den
+    Nummern: Sind die Nummern aus, ist auch dieser Schalter aus.
 
 
 7. WIDGETS
@@ -158,9 +159,9 @@ Allgemein
                      Am Bildschirmrand ausblenden
   - Sichern und übertragen   Exportieren / Importieren (siehe 10)
 Aussehen
-  - Design           16 Designs zum Anklicken (siehe 9)
+  - Design           18 Designs zum Anklicken (siehe 9)
   - Darstellung      Oberfläche (Flach / Plastisch), Einträge (Flach / Dezent / Plastisch),
-                     Transparenz, LED-Rand
+                     Transparenz, LED-Rand, Rand
   - Farbe der Einträge   eigene Kachelfarbe (wird beim Wechsel des Designs zurückgesetzt)
 Kategorien           siehe 5
 Tastenkürzel         siehe 6
@@ -168,20 +169,25 @@ Widgets              welche Widgets, Orte fürs Wetter
 Version & Updates    Version, automatisch suchen, jetzt aktualisieren
 
 
-9. DESIGNS, TRANSPARENZ, LED-RAND
----------------------------------
+9. DESIGNS, TRANSPARENZ, LED-RAND, RAND
+---------------------------------------
 Designs
   - Klassisch: Dark Glass, Obsidian (Taucheruhr-Look: Zifferblatt-Braun, Titan, Sand-Beige), Slate, Velvet,
     Charcoal, Monogram (brauner Canvas, vergoldete SLD-Motive, vergoldete Knöpfe), Titanium.
+  - Hell: White Gradient (grauer Verlauf, Apple-Stil).
   - Verläufe: Aurora, Liquid Glass, Midnight Wave, Aqua Glass, Steel Petals, Black Silk, Color Satin,
-    Night Dunes, Nebula. Alle sind im Programm gezeichnet und bleiben in jeder Größe scharf.
+    Night Dunes, Nebula, Twilight Waves. Alle sind im Programm gezeichnet und bleiben in jeder Größe scharf.
   - Knöpfe, Rahmen und Widgets passen sich dem Design an. Wer eine Kachelfarbe wählt, ändert nur die Kacheln.
 Transparenz
   - Der Regler macht das GANZE Deck durchscheinend, sodass der Desktop dahinter zu sehen ist.
     100 % = undurchsichtig (Standard), nach links wird es durchsichtiger.
+  - Der Regler sitzt auch direkt unten in der Leiste. Ist das Deck zu schmal, wird er zum Sonnen-Knopf.
 LED-Rand
   - Farbiges Leuchten um das Deck: Aus, Blau, Gelb, Rot, Grün, Lila oder RGB (Regenbogen),
     dazu Ruhig, Pulsieren oder Lauflicht. Das Licht erscheint nur außen am Rand.
+Rand
+  - Fester Rand in einer Farbe um das Deck, ohne Bewegung: 13 Farben, Dicke dünn, mittel oder dick.
+    Er wächst nach außen. Ist der LED-Rand an, hat der LED-Rand Vorrang.
 Oberfläche und Einträge
   - Flach = klare Flächen wie im Browser, Plastisch = Lichtkanten und Schatten, Dezent = dazwischen.
 
