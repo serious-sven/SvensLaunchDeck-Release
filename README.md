@@ -64,3 +64,27 @@ Zahnrad → „Mit Windows starten“ ausschalten, Deck über den Infobereich be
 ---
 
 Dieses Projekt enthält nur die fertigen Downloads. Alle Rechte vorbehalten.
+
+---
+
+## Technik
+
+| | |
+|---|---|
+| Plattform | Windows 10/11, 64 Bit |
+| Sprache / UI | C# und WPF auf .NET 10, Vektor-Oberfläche ohne Zusatzbibliotheken |
+| Auslieferung | eine Exe, self-contained und Single-File (ca. 70 MB), keine Installation, keine Administratorrechte |
+| Designs | entstehen zur Laufzeit per `DynamicResource`, keine Bilddateien im Paket |
+| Tests | xUnit (Deck-Speicherung, Updater, Autostart, Tastenkürzel, Migration); Registry wird nie angefasst (austauschbare Schnittstelle) |
+| Daten | lesbare JSON-Datei in `%AppData%\SvensMegaLauncher`, getrennt vom Programm; Backup = Export |
+| Speichern | über Zwischendatei; beschädigte Datei wird als Kopie beiseitegelegt, App startet trotzdem |
+| Updates | GitHub-Releases; ZIP wird mit SHA-256 geprüft, bei Abweichung keine Installation, bei Fehler Rückfall auf die alte Exe |
+
+**Entscheidungen**
+- **WPF/.NET 10:** Verläufe, Schatten und Designwechsel ohne Neustart, ohne Fremdbibliotheken.
+- **Self-contained Single-File:** nichts nachzuinstallieren, dafür größere Datei.
+- **Designs per `DynamicResource`:** Umschalten zur Laufzeit, ein Satz Ressourcen je Design.
+- **Updates über GitHub:** kein eigener Server, nur Abfrage der neuesten Version.
+- **Datenschutz:** kein Konto, keine Telemetrie; Verbindungen nur für Update-Prüfung (abschaltbar) und Wetter bei Open-Meteo (nur mit Zustimmung). Standort wird nie ermittelt.
+
+Die Exe ist nicht signiert: Windows zeigt beim ersten Start SmartScreen an.
